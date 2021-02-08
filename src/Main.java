@@ -1,6 +1,7 @@
+@SuppressWarnings({"deprecation", "unchecked"})
 public class Main {
     public static void main(String[] args) {
-        @SuppressWarnings({"deprecation", "unchecked"})
+        
         Author author = new Author("Sandi", "Metz");
 
         author.addBook("Practical Object-Oriented Design in Ruby");
